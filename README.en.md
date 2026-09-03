@@ -1,247 +1,145 @@
+<img src="assets/banner.svg" width="100%" alt=""/>
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:A8DCFF,35:6BB6F0,70:2E7CC4,100:1B5FA8&text=ANDR%C3%89S%20FELIPE%20ORTIZ&fontSize=42&fontColor=ffffff&fontAlignY=34&desc=Industrial%20Engineering%20%C2%B7%20Data%20Analytics%20%C2%B7%20Process%20Automation&descAlignY=55&descSize=16"/>
-
-<a href="README.md"><img src="https://img.shields.io/badge/%F0%9F%87%AA%F0%9F%87%B8%20Espa%C3%B1ol-6BB6F0?style=for-the-badge&labelColor=A8DCFF&color=6BB6F0"/></a>
-<a href="README.en.md"><img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7%20English-1B5FA8?style=for-the-badge&labelColor=1B5FA8"/></a>
+<a href="README.md"><img src="https://img.shields.io/badge/Espa%C3%B1ol-6FC8F8?style=for-the-badge&labelColor=A8DCFF&color=6FC8F8" alt="Español"/></a>
+<a href="README.en.md"><img src="https://img.shields.io/badge/English-1B6AB4?style=for-the-badge&labelColor=1B6AB4" alt="English"/></a>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=2800&pause=900&color=2E7CC4&center=true&vCenter=true&width=640&height=50&lines=Bill's+PC+is+booting+up...;Accessing+the+Storage+System;6+PROJECTS+IN+THE+CURRENT+BOX" alt="typing"/>
-
-<br>
-
-[![Email](https://img.shields.io/badge/Email-1B5FA8?style=flat-square&logo=gmail&logoColor=white)](mailto:anfeog@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-2E7CC4?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anfeog)
-[![GitHub](https://img.shields.io/badge/GitHub-6BB6F0?style=flat-square&logo=github&logoColor=white)](https://github.com/anfeog)
-![Location](https://img.shields.io/badge/Bogot%C3%A1%2C%20Colombia-A8DCFF?style=flat-square&logo=googlemaps&logoColor=1B5FA8)
+[![Email](https://img.shields.io/badge/anfeog@gmail.com-2274BD?style=flat-square&logo=gmail&logoColor=white)](mailto:anfeog@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3189CF?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anfeog)
+![Location](https://img.shields.io/badge/Bogot%C3%A1%2C%20Colombia-A8DCFF?style=flat-square&logo=googlemaps&logoColor=1B6AB4)
 
 </div>
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-║   POKEMON STORAGE SYSTEM                     ◀  BOX 1 / 4  ▶      ║
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+## About
 
-## 🖥️ BOX 1 — Trainer Data
+Industrial Engineering student at Universidad de La Sabana (8th semester, expected graduation 2027-2), focused on **data analytics**: Big Data, Machine Learning and visualization.
 
-> *An Industrial Engineering student who found his favorite type in data. I turn slow processes and chaotic spreadsheets into systems that run themselves — and into numbers someone can actually decide with.*
+I work where process meets code: automating manual tasks with Python, building dashboards and simulation models, and measuring the outcome. My most recent production project **cut a payroll review from two days to one hour**.
+
+Looking for an internship where optimization and data analysis translate into measurable results.
 
 | | |
 |---|---|
-| 🎓 **Education** | Industrial Engineering — **Universidad de La Sabana** (8th semester, expected graduation **2027-2**) |
-| 📊 **Focus** | Data Analytics — Big Data, Machine Learning and Visualization |
-| ⚙️ **Specialty** | Process automation with Python, dashboards and simulation models |
-| 🏆 **Recent win** | Cut a payroll review from **2 days to 1 hour** at Craftmulti |
-| 🗣️ **Languages** | Spanish (native) · English **B2/C1** — TOEFL iBT **94** |
-| 🎯 **Looking for** | An internship where optimization and data analysis deliver **measurable results** |
+| **Education** | Industrial Engineering — Universidad de La Sabana · Data Analytics focus |
+| **Certifications** | KAIZEN Lean Manufacturing Foundations (32 h) — Kaizen Institute Colombia, 2026 |
+| **Languages** | Spanish native · English B2/C1 — TOEFL iBT 94 |
 
-<br>
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-║   ACTIVE PARTY                               ◀  BOX 2 / 4  ▶      ║
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+## Stack
 
-## ⚡ BOX 2 — Active Party
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,fastapi,flask,js,tailwind,sqlite&theme=dark" alt="active party"/>
-
-</div>
-
-<div align="center">
-
-| Slot | Pokémon | Type | Level |
-|:--:|:--|:--|:--|
-| **1** | 🐍 **Python** | `Analytics` `Automation` | ▰▰▰▰▰▰▰▰▱▱ |
-| **2** | ⚡ **FastAPI · Flask** | `Backend` | ▰▰▰▰▰▰▰▱▱▱ |
-| **3** | 🐼 **pandas · Jupyter** | `Data` | ▰▰▰▰▰▰▰▰▱▱ |
-| **4** | 📊 **Power BI · Dashboards** | `Visualization` | ▰▰▰▰▰▰▰▱▱▱ |
-| **5** | 🧮 **Advanced Excel** | `Data` `Modeling` | ▰▰▰▰▰▰▰▰▰▱ |
-| **6** | 🏭 **Lean Manufacturing** | `Process` | ▰▰▰▰▰▰▰▱▱▱ |
-
-</div>
-
-### 📦 Rest of the PC
-
-<div align="center">
+**Languages and analysis**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Backend and web**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=turso&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=sqlite&logoColor=black)
+
+**Data and process**
+
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Lean](https://img.shields.io/badge/Lean_Manufacturing-2274BD?style=flat-square)
+![Simulation](https://img.shields.io/badge/Simulation-2274BD?style=flat-square)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-</div>
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-<br>
+## Projects
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-║   GYM BADGES                                 ◀  BOX 3 / 4  ▶      ║
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+### [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) · [live demo ↗](https://duolocke-z-jalmeida.onrender.com)
 
-## 🏅 BOX 3 — Gym Badges
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=sqlite&logoColor=black)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 
-<div align="center">
+A shared, mobile-first web scoreboard for tracking a two-player co-op run: lives, badges, checkpoint battles and a knockout log, kept in sync across both phones.
 
-| Badge | Earned at | Year |
-|:--:|:--|:--:|
-| 🏭 **Kaizen Badge** — KAIZEN Lean Manufacturing Foundations (32 h) | Kaizen Institute Colombia | 2026 |
-| 🗣️ **Polyglot Badge** — TOEFL iBT, score 94 (B2/C1) | ETS | 2022 |
-| ⚙️ **Efficiency Badge** — Process automation internship | Craftmulti | 2026 |
-| 🎓 **Analytics Badge** — Focus on Big Data, ML and Visualization | Universidad de La Sabana | Ongoing |
+- **Problem:** tracking was done on paper or in a spreadsheet and drifted out of sync between the two players.
+- **Solution:** a Node/Express API over Turso, a frontend installable as a PWA, and a dependency-free rules engine (`src/rules.js`) that computes progression locks and the end-of-run condition. PIN auth with per-IP rate limiting.
+- **Technical call:** vanilla JS on purpose — for two users and a handful of records, a framework would have been over-engineering.
+- **Status:** deployed and in active use.
 
-</div>
+### [Polla Futbolera](https://github.com/anfeog/polla-futbolera)
 
-<br>
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Jinja](https://img.shields.io/badge/Jinja2-B41717?style=flat-square&logo=jinja&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-║   PROJECT POKEDEX                            ◀  BOX 4 / 4  ▶      ║
-║  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+A sports prediction platform used by a real group of users throughout the 2026 World Cup.
 
-## 📕 BOX 4 — Project Pokédex
+- **Solution:** FastAPI + Jinja2 backend, HTML/Tailwind/JS frontend, installable as a PWA.
+- **Automation:** scores and goalscorers synced through external APIs every 5 minutes, with SQLite/Turso and live scoring and standings.
 
-### `No.001` — Payroll Pre-Validator ✨ *shiny*
+### Payroll pre-validator — Craftmulti · 2026
 
-> *Lives in HR month-end closings. Detects inconsistencies between reports before they reach payroll. It is said to save entire days of work.*
-
-![Type](https://img.shields.io/badge/Type-Automation-6390F0?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 - **Problem:** payroll review meant cross-checking HR reports by hand, error-prone and with no slack before the monthly close.
 - **Solution:** a Python system (Flask + pandas) that compares the reports and automatically flags inconsistencies.
-- **Impact:** review time went **from 2 days to 1 hour** — *Craftmulti, 2026*.
+- **Impact:** review time went **from 2 days to 1 hour**.
 
----
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-### `No.002` — [Polla Futbolera](https://github.com/anfeog/polla-futbolera) ⚽
+## Industrial engineering projects
 
-> *Awakened during the World Cup. Syncs scores every 5 minutes and recalculates the standings live. Its special move is leaving no room to argue about the points.*
+### Concession queue simulation — Cine Colombia · 2025
 
-![Type](https://img.shields.io/badge/Type-Web%20App-7AC74C?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Jinja](https://img.shields.io/badge/Jinja2-B41717?style=flat-square&logo=jinja&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
-![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=turso&logoColor=black)
+- **Problem:** register and staffing configurations were decided without evidence of their real effect on waiting time.
+- **Solution:** a simulation model of the service system, with analysis of customer paths and peak-hour arrival patterns.
+- **Result:** quantified scenarios for improving service efficiency.
 
-- **What it is:** a sports prediction platform in Python (FastAPI + Jinja2), frontend in HTML/Tailwind/JS, installable as a **PWA**.
-- **How it works:** automatic sync of scores and goalscorers through external APIs **every 5 minutes**, with a SQLite/Turso database and live scoring and standings.
-- **Impact:** used by a real group of users throughout the World Cup — *personal project, 2026*.
-
----
-
-### `No.003` — Concession Stand Queue Simulation 🍿
-
-> *Dwells in peak hours. Predicts how many registers you need before the line reaches the door.*
-
-![Type](https://img.shields.io/badge/Type-Simulation-F95587?style=flat-square)
-![OR](https://img.shields.io/badge/Operations_Research-1B5FA8?style=flat-square)
-
-- **Problem:** register and staffing configurations decided without evidence of their real effect on waiting time.
-- **Solution:** a simulation model of the service system, plus analysis of customer paths and peak-hour arrival patterns.
-- **Impact:** quantified scenarios for improving service efficiency — *Cine Colombia, 2025*.
-
----
-
-### `No.004` — Outpatient Care Time Improvement 🏥
-
-> *Camouflages itself in the waiting room, timing every minute. Finds the bottleneck nobody sees.*
-
-![Type](https://img.shields.io/badge/Type-Optimization-EE8130?style=flat-square)
-![Lean](https://img.shields.io/badge/Lean-217346?style=flat-square)
+### Outpatient care time improvement — Clínica Universidad de La Sabana · 2024
 
 - **Problem:** long waiting times with no traceability of where the time was actually lost.
 - **Solution:** recording of service times and classification of the process's critical activities.
-- **Impact:** bottlenecks identified and optimization proposals to cut waiting time and improve patient experience — *Clínica Universidad de La Sabana, 2024*.
+- **Result:** bottlenecks identified and optimization proposals to reduce waiting time.
 
----
+### Safety analysis in oil refining — Alianza Team · 2024
 
-### `No.005` — Safety Analysis in Oil Refining 🔥
+- **Scope:** verified compliance with international standards (ISO) and occupational safety legislation, in direct contact with the plant in Mexico.
+- **Result:** fire and occupational health risks identified, with preventive measures aligned to industry standards.
 
-> *Fire type, naturally. Walks the plant looking for the hazard before the hazard finds someone.*
+<img src="assets/divider.svg" width="100%" alt=""/>
 
-![Type](https://img.shields.io/badge/Type-HSE%20%26%20Compliance-F7D02C?style=flat-square)
-![ISO](https://img.shields.io/badge/ISO-1B5FA8?style=flat-square)
-
-- **What I did:** verified compliance with international standards (ISO) and occupational safety legislation, in direct contact with the plant in **Mexico**.
-- **Impact:** fire and occupational health risks identified, with preventive measures aligned to industry standards — *Alianza Team, 2024*.
-
----
-
-### `No.006` — [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) 🔴 *legendary*
-
-> *The only one in the box that was born a Pokémon. Lives across two phones and remembers every fallen Pokémon. No one has ever seen it go out of sync.*
-
-[![Live](https://img.shields.io/badge/▶%20See%20it%20live-46E3B7?style=flat-square&logo=render&logoColor=black)](https://duolocke-z-jalmeida.onrender.com)
-![Type](https://img.shields.io/badge/Type-Full%20Stack-A33EA1?style=flat-square)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=sqlite&logoColor=black)
-![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
-
-- **Problem:** a *duolocke* (a two-player nuzlocke) is tracked by hand on paper or in a spreadsheet — lives, badges, checkpoint battles and deaths — and drifts out of sync between the two players.
-- **Solution:** a **mobile-first live scoreboard**, installable as a PWA, with a dependency-free rules engine (`src/rules.js`) that computes the every-2-gyms progression lock and the end-of-run condition. Includes a searchable index of the game's **1018 Pokémon** to log knockouts, PIN auth with rate limiting, and assets extracted from the fangame itself — zero AI.
-- **Technical call:** vanilla JS on purpose. For 2 users and a handful of records, a framework would have been over-engineering.
-- **Impact:** **deployed and in active use** in an ongoing run — *personal project*.
-
-<br>
-
-## 📊 Trainer Stats
+## Stats
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=anfeog&show_icons=true&hide_border=false&border_radius=10&bg_color=0D1B2A&title_color=A8DCFF&text_color=E8F4FF&icon_color=6BB6F0&border_color=2E7CC4"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anfeog&layout=compact&hide_border=false&border_radius=10&bg_color=0D1B2A&title_color=A8DCFF&text_color=E8F4FF&border_color=2E7CC4"/>
-
-<br><br>
-
-<img height="165" src="https://streak-stats.demolab.com?user=anfeog&locale=en&mode=daily&hide_border=false&border_radius=10&background=0D1B2A&ring=6BB6F0&fire=A8DCFF&currStreakLabel=A8DCFF&sideLabels=E8F4FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8AA8C0&stroke=2E7CC4&border=2E7CC4"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=anfeog&show_icons=true&hide_border=true&border_radius=8&bg_color=0C3D6B&title_color=A8DCFF&text_color=E8F4FF&icon_color=6FC8F8" alt=""/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anfeog&layout=compact&hide_border=true&border_radius=8&bg_color=0C3D6B&title_color=A8DCFF&text_color=E8F4FF" alt=""/>
 
 </div>
 
-<br>
+## Contact
 
-## 🎣 Let's connect
-
-Always happy to talk about **data analytics, process automation, simulation and operations research** — and to hear about internship opportunities.
+Happy to talk about data analytics, process automation, simulation and operations research — and to hear about internship opportunities.
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/anfeog@gmail.com-1B5FA8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anfeog@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/linkedin.com/in/anfeog-2E7CC4?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anfeog)
-
-<br>
-
-<sub><i>「 Thanks for visiting the PC. Your Pokémon are safe. 」</i></sub>
+[![Email](https://img.shields.io/badge/anfeog@gmail.com-2274BD?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anfeog@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin.com/in/anfeog-3189CF?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anfeog)
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:1B5FA8,40:2E7CC4,75:6BB6F0,100:A8DCFF"/>
+<img src="assets/divider.svg" width="100%" alt=""/>
