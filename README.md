@@ -19,7 +19,7 @@ Estudiante de **Ingeniería Industrial** en la Universidad de La Sabana (8.º se
 
 Trabajo en el punto donde se cruzan el proceso y el código: automatizo tareas manuales con Python, construyo dashboards y modelos de simulación, y mido el resultado. Mi último proyecto en producción **redujo una revisión de nómina de dos días a una hora**.
 
-Busco prácticas donde la optimización y el análisis de datos se traduzcan en resultados medibles.
+
 
 | | |
 |---|---|
