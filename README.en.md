@@ -196,14 +196,21 @@
 
 ---
 
-### `No.006` — [DUOLOCKE](https://github.com/anfeog/DUOLOCKE) 🎮
+### `No.006` — [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) 🔴 *legendary*
 
-> *The only one in the box that was born a Pokémon.*
+> *The only one in the box that was born a Pokémon. Lives across two phones and remembers every fallen Pokémon. No one has ever seen it go out of sync.*
 
-![Type](https://img.shields.io/badge/Type-Side%20Project-A33EA1?style=flat-square)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[![Live](https://img.shields.io/badge/▶%20See%20it%20live-46E3B7?style=flat-square&logo=render&logoColor=black)](https://duolocke-z-jalmeida.onrender.com)
+![Type](https://img.shields.io/badge/Type-Full%20Stack-A33EA1?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=sqlite&logoColor=black)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
-<!-- TODO Andrés: write 2 lines about DUOLOCKE here (what it does and who it's for). Left blank because the repo has no description and I didn't want to invent one. -->
+- **Problem:** a *duolocke* (a two-player nuzlocke) is tracked by hand on paper or in a spreadsheet — lives, badges, checkpoint battles and deaths — and drifts out of sync between the two players.
+- **Solution:** a **mobile-first live scoreboard**, installable as a PWA, with a dependency-free rules engine (`src/rules.js`) that computes the every-2-gyms progression lock and the end-of-run condition. Includes a searchable index of the game's **1018 Pokémon** to log knockouts, PIN auth with rate limiting, and assets extracted from the fangame itself — zero AI.
+- **Technical call:** vanilla JS on purpose. For 2 users and a handful of records, a framework would have been over-engineering.
+- **Impact:** **deployed and in active use** in an ongoing run — *personal project*.
 
 <br>
 

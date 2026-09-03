@@ -196,14 +196,21 @@
 
 ---
 
-### `Nº006` — [DUOLOCKE](https://github.com/anfeog/DUOLOCKE) 🎮
+### `Nº006` — [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) 🔴 *legendario*
 
-> *El único de la caja que nació siendo Pokémon.*
+> *El único de la caja que nació siendo Pokémon. Vive entre dos móviles y recuerda cada Pokémon caído. Nadie lo ha visto desincronizarse.*
 
-![Tipo](https://img.shields.io/badge/Tipo-Side%20Project-A33EA1?style=flat-square)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+[![En vivo](https://img.shields.io/badge/▶%20Ver%20en%20vivo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://duolocke-z-jalmeida.onrender.com)
+![Tipo](https://img.shields.io/badge/Tipo-Full%20Stack-A33EA1?style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=sqlite&logoColor=black)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
-<!-- TODO Andrés: escribe aquí 2 líneas sobre DUOLOCKE (qué hace y para quién). Lo dejé en blanco porque el repo no tiene descripción y no quise inventarla. -->
+- **Problema:** un *duolocke* (nuzlocke a dos jugadores) se lleva a mano en papel o Excel — vidas, medallas, combates de checkpoint y muertes — y se desincroniza entre los dos jugadores.
+- **Solución:** marcador web **mobile-first en vivo**, instalable como PWA, con motor de reglas propio sin dependencias (`src/rules.js`) que calcula bloqueos cada 2 gimnasios y el fin del reto. Buscador con los **1018 Pokémon** del juego para registrar bajas, auth por PIN con rate-limit y assets extraídos del propio fangame — cero IA.
+- **Decisión técnica:** vanilla JS deliberado. Para 2 usuarios y un puñado de datos, un framework era sobreingeniería.
+- **Impacto:** **desplegado y en uso real** en una partida en curso — *proyecto personal*.
 
 <br>
 
