@@ -50,6 +50,13 @@ Looking for an internship where optimization and data analysis translate into me
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=sqlite&logoColor=black)
 
+**Mobile**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-4B32C3?style=flat-square)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
 **Data and process**
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
@@ -61,6 +68,22 @@ Looking for an internship where optimization and data analysis translate into me
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## Projects
+
+### [PokéNotes](https://github.com/anfeog/pokenotes)
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-4B32C3?style=flat-square)
+![Hive](https://img.shields.io/badge/Hive-FFB300?style=flat-square)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+An Android app for taking live notes on what the opponent reveals during a competitive match: moves, item, ability and loose observations, jotted down at speed mid-game.
+
+- **Problem:** the information that decides the match is revealed bit by bit and forgotten as soon as it ends; a phone's notes app is slow and unstructured exactly when there is no time.
+- **Solution:** a **fully offline** Flutter app that persists on every keystroke — killing the app mid-match loses nothing. The full PokeAPI index (1,351 species, 937 moves) is cached in **2 requests** by deriving the sprite URL from the id, instead of 1,351 calls.
+- **Technical call:** the record is *append-only* and the rule lives in the domain, not the UI: once a match is saved the model **rejects** overwriting what was logged and only allows filling gaps and adding notes. No screen can bypass it by accident.
+- **Deliberate scope:** no damage calculator and no strategy hints — it only records what you observe, with a test that enforces it. That is what keeps it within what is allowed in formats where phones are permitted.
+- **Status:** finished. 78 tests, release APK in use.
 
 ### [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) · [live demo ↗](https://duolocke-z-jalmeida.onrender.com)
 

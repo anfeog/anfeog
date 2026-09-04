@@ -50,6 +50,13 @@ Trabajo en el punto donde se cruzan el proceso y el código: automatizo tareas m
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Turso](https://img.shields.io/badge/Turso-4FF8D2?style=flat-square&logo=sqlite&logoColor=black)
 
+**Móvil**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-4B32C3?style=flat-square)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
 **Datos y procesos**
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
@@ -61,6 +68,22 @@ Trabajo en el punto donde se cruzan el proceso y el código: automatizo tareas m
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## Proyectos
+
+### [PokéNotes](https://github.com/anfeog/pokenotes)
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-4B32C3?style=flat-square)
+![Hive](https://img.shields.io/badge/Hive-FFB300?style=flat-square)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+App Android para anotar en vivo lo que el rival va revelando durante un combate competitivo: movimientos, objeto, habilidad y observaciones sueltas, apuntadas a toda prisa mientras se juega.
+
+- **Problema:** la información que decide la partida se revela poco a poco y se olvida al terminar; el bloc de notas del móvil es lento y desordenado justo cuando no hay tiempo.
+- **Solución:** app Flutter **100 % offline** con autoguardado en cada pulsación — cerrar la app a mitad de combate no pierde nada. El índice completo de PokeAPI (1351 especies, 937 movimientos) se cachea en **2 peticiones** derivando la URL del sprite del id, en vez de 1351 llamadas.
+- **Decisión técnica:** el registro es *append-only* y la regla vive en el dominio, no en la interfaz: una vez guardado un combate el modelo **rechaza** sobrescribir lo anotado y solo admite rellenar huecos y añadir notas. Ninguna pantalla puede saltársela por descuido.
+- **Alcance deliberado:** sin calculadora de daño ni sugerencias de estrategia — solo registra lo observado, con un test que lo vigila. Es lo que la mantiene dentro de lo permitido en los formatos donde se puede usar el móvil.
+- **Estado:** terminada. 78 tests, APK de release en uso.
 
 ### [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) · [ver en vivo ↗](https://duolocke-z-jalmeida.onrender.com)
 
