@@ -23,9 +23,9 @@ Looking for an internship where optimization and data analysis translate into me
 
 | | |
 |---|---|
-| **Education** | Industrial Engineering — Universidad de La Sabana · Data Analytics focus |
-| **Certifications** | KAIZEN Lean Manufacturing Foundations (32 h) — Kaizen Institute Colombia, 2026 |
-| **Languages** | Spanish native · English B2/C1 — TOEFL iBT 94 |
+| **Education** | Industrial Engineering · Universidad de La Sabana · Data Analytics focus |
+| **Certifications** | KAIZEN Lean Manufacturing Foundations (32 h) · Kaizen Institute Colombia, 2026 |
+| **Languages** | Spanish native · English B2/C1 (TOEFL iBT 94) |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -80,9 +80,9 @@ Looking for an internship where optimization and data analysis translate into me
 An Android app for taking live notes on what the opponent reveals during a competitive match: moves, item, ability and loose observations, jotted down at speed mid-game.
 
 - **Problem:** the information that decides the match is revealed bit by bit and forgotten as soon as it ends; a phone's notes app is slow and unstructured exactly when there is no time.
-- **Solution:** a **fully offline** Flutter app that persists on every keystroke — killing the app mid-match loses nothing. The full PokeAPI index (1,351 species, 937 moves) is cached in **2 requests** by deriving the sprite URL from the id, instead of 1,351 calls.
+- **Solution:** a **fully offline** Flutter app that persists on every keystroke: killing the app mid-match loses nothing. The full PokeAPI index (1,351 species, 937 moves) is cached in **2 requests** by deriving the sprite URL from the id, instead of 1,351 calls.
 - **Technical call:** the record is *append-only* and the rule lives in the domain, not the UI: once a match is saved the model **rejects** overwriting what was logged and only allows filling gaps and adding notes. No screen can bypass it by accident.
-- **Deliberate scope:** no damage calculator and no strategy hints — it only records what you observe, with a test that enforces it. That is what keeps it within what is allowed in formats where phones are permitted.
+- **Deliberate scope:** no damage calculator and no strategy hints, it only records what you observe, with a test that enforces it. That is what keeps it within what is allowed in formats where phones are permitted.
 - **Status:** finished. 78 tests, release APK in use.
 
 ### [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) · [live demo ↗](https://duolocke-z-jalmeida.onrender.com)
@@ -97,7 +97,7 @@ A shared, mobile-first web scoreboard for tracking a two-player co-op run: lives
 
 - **Problem:** tracking was done on paper or in a spreadsheet and drifted out of sync between the two players.
 - **Solution:** a Node/Express API over Turso, a frontend installable as a PWA, and a dependency-free rules engine (`src/rules.js`) that computes progression locks and the end-of-run condition. PIN auth with per-IP rate limiting.
-- **Technical call:** vanilla JS on purpose — for two users and a handful of records, a framework would have been over-engineering.
+- **Technical call:** vanilla JS on purpose: for two users and a handful of records, a framework would have been over-engineering.
 - **Status:** deployed and in active use.
 
 ### [Polla Futbolera](https://github.com/anfeog/polla-futbolera)
@@ -107,12 +107,15 @@ A shared, mobile-first web scoreboard for tracking a two-player co-op run: lives
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
-A sports prediction platform used by a real group of users throughout the 2026 World Cup.
+A 2026 World Cup prediction platform, used by a real group of players for the whole tournament.
 
-- **Solution:** FastAPI + Jinja2 backend, HTML/Tailwind/JS frontend, installable as a PWA.
-- **Automation:** scores and goalscorers synced through external APIs every 5 minutes, with SQLite/Turso and live scoring and standings.
+- **Problem:** the pool used to live in a spreadsheet, with points added by hand and an argument every time a result was corrected after the fact.
+- **Solution:** FastAPI + Jinja2 backend with an HTML/Tailwind/JS frontend installable as a PWA, syncing scores and goalscorers from external APIs every 5 minutes over SQLite/Turso. Points and standings are computed live, with wildcards, bonuses and automatic knockout bracket progression.
+- **Technical call:** scoring is retroactively recomputable rather than cumulative. If a source corrects a score or validates a goal hours later, the table is rebuilt from raw data instead of patching the running total. That forced me to reconcile two sources that disagree (football-data.org for the fixture, ESPN for goalscorers) with one rule instead of case by case.
+- **Anti-exploit:** other players' predictions stay hidden until each match closes, and goalscorer ordering is validated server-side, so a bet cannot be adjusted with information that is already public.
+- **Status:** finished. It ran in production on Render for the whole World Cup, June to July, with real players; hosting was taken down when the tournament ended.
 
-### Payroll pre-validator — Craftmulti · 2026
+### Payroll pre-validator · Craftmulti · 2026
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
@@ -126,19 +129,19 @@ A sports prediction platform used by a real group of users throughout the 2026 W
 
 ## Industrial engineering projects
 
-### Concession queue simulation — Cine Colombia · 2025
+### Concession queue simulation · Cine Colombia · 2025
 
 - **Problem:** register and staffing configurations were decided without evidence of their real effect on waiting time.
 - **Solution:** a simulation model of the service system, with analysis of customer paths and peak-hour arrival patterns.
 - **Result:** quantified scenarios for improving service efficiency.
 
-### Outpatient care time improvement — Clínica Universidad de La Sabana · 2024
+### Outpatient care time improvement · Clínica Universidad de La Sabana · 2024
 
 - **Problem:** long waiting times with no traceability of where the time was actually lost.
 - **Solution:** recording of service times and classification of the process's critical activities.
 - **Result:** bottlenecks identified and optimization proposals to reduce waiting time.
 
-### Safety analysis in oil refining — Alianza Team · 2024
+### Safety analysis in oil refining · Alianza Team · 2024
 
 - **Scope:** verified compliance with international standards (ISO) and occupational safety legislation, in direct contact with the plant in Mexico.
 - **Result:** fire and occupational health risks identified, with preventive measures aligned to industry standards.
@@ -156,7 +159,7 @@ A sports prediction platform used by a real group of users throughout the 2026 W
 
 ## Contact
 
-Happy to talk about data analytics, process automation, simulation and operations research — and to hear about internship opportunities.
+Happy to talk about data analytics, process automation, simulation and operations research, and to hear about internship opportunities.
 
 <div align="center">
 

@@ -23,9 +23,9 @@ Trabajo en el punto donde se cruzan el proceso y el código: automatizo tareas m
 
 | | |
 |---|---|
-| **Formación** | Ingeniería Industrial — Universidad de La Sabana · énfasis en Analítica de Datos |
-| **Certificaciones** | KAIZEN Lean Manufacturing Foundations (32 h) — Kaizen Institute Colombia, 2026 |
-| **Idiomas** | Español nativo · Inglés B2/C1 — TOEFL iBT 94 |
+| **Formación** | Ingeniería Industrial · Universidad de La Sabana · énfasis en Analítica de Datos |
+| **Certificaciones** | KAIZEN Lean Manufacturing Foundations (32 h) · Kaizen Institute Colombia, 2026 |
+| **Idiomas** | Español nativo · Inglés B2/C1 (TOEFL iBT 94) |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -80,9 +80,9 @@ Trabajo en el punto donde se cruzan el proceso y el código: automatizo tareas m
 App Android para anotar en vivo lo que el rival va revelando durante un combate competitivo: movimientos, objeto, habilidad y observaciones sueltas, apuntadas a toda prisa mientras se juega.
 
 - **Problema:** la información que decide la partida se revela poco a poco y se olvida al terminar; el bloc de notas del móvil es lento y desordenado justo cuando no hay tiempo.
-- **Solución:** app Flutter **100 % offline** con autoguardado en cada pulsación — cerrar la app a mitad de combate no pierde nada. El índice completo de PokeAPI (1351 especies, 937 movimientos) se cachea en **2 peticiones** derivando la URL del sprite del id, en vez de 1351 llamadas.
+- **Solución:** app Flutter **100 % offline** con autoguardado en cada pulsación: cerrar la app a mitad de combate no pierde nada. El índice completo de PokeAPI (1351 especies, 937 movimientos) se cachea en **2 peticiones** derivando la URL del sprite del id, en vez de 1351 llamadas.
 - **Decisión técnica:** el registro es *append-only* y la regla vive en el dominio, no en la interfaz: una vez guardado un combate el modelo **rechaza** sobrescribir lo anotado y solo admite rellenar huecos y añadir notas. Ninguna pantalla puede saltársela por descuido.
-- **Alcance deliberado:** sin calculadora de daño ni sugerencias de estrategia — solo registra lo observado, con un test que lo vigila. Es lo que la mantiene dentro de lo permitido en los formatos donde se puede usar el móvil.
+- **Alcance deliberado:** sin calculadora de daño ni sugerencias de estrategia, solo registra lo observado, con un test que lo vigila. Es lo que la mantiene dentro de lo permitido en los formatos donde se puede usar el móvil.
 - **Estado:** terminada. 78 tests, APK de release en uso.
 
 ### [Duolocke Z Jalmeida](https://github.com/anfeog/DUOLOCKE) · [ver en vivo ↗](https://duolocke-z-jalmeida.onrender.com)
@@ -97,7 +97,7 @@ Marcador web compartido y mobile-first para llevar una partida cooperativa entre
 
 - **Problema:** el seguimiento se hacía en papel o en una hoja de cálculo y se desincronizaba entre los dos jugadores.
 - **Solución:** API en Node/Express sobre Turso, frontend instalable como PWA, y un motor de reglas sin dependencias (`src/rules.js`) que calcula bloqueos de avance y condición de cierre. Autenticación por PIN con rate-limit por IP.
-- **Decisión técnica:** vanilla JS deliberado — para dos usuarios y un puñado de registros, un framework habría sido sobreingeniería.
+- **Decisión técnica:** vanilla JS deliberado: para dos usuarios y un puñado de registros, un framework habría sido sobreingeniería.
 - **Estado:** desplegado y en uso real.
 
 ### [Polla Futbolera](https://github.com/anfeog/polla-futbolera)
@@ -107,12 +107,15 @@ Marcador web compartido y mobile-first para llevar una partida cooperativa entre
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
-Plataforma de predicciones deportivas usada por un grupo real de usuarios durante el Mundial 2026.
+Plataforma de predicciones del Mundial 2026, usada por un grupo real de jugadores durante todo el torneo.
 
-- **Solución:** backend en FastAPI + Jinja2, frontend en HTML/Tailwind/JS, instalable como PWA.
-- **Automatización:** sincronización de marcadores y goleadores vía APIs externas cada 5 minutos, con SQLite/Turso y cálculo de puntajes y tabla de posiciones en vivo.
+- **Problema:** la polla se llevaba en hojas de cálculo, con el puntaje sumado a mano y discusiones cada vez que un resultado se corregía después de cerrado.
+- **Solución:** backend en FastAPI + Jinja2 con frontend en HTML/Tailwind/JS instalable como PWA, sincronizando marcadores y goleadores desde APIs externas cada 5 minutos sobre SQLite/Turso. Puntajes y tabla de posiciones se calculan en vivo, con comodines, bonos y avance automático del cuadro eliminatorio.
+- **Decisión técnica:** el puntaje es recalculable de forma retroactiva, no acumulativo. Si una fuente corrige un marcador o valida un gol horas después, la tabla se rehace entera desde los datos crudos en vez de parchear el acumulado. Eso obligó a reconciliar dos fuentes que se contradicen (football-data.org para el fixture, ESPN para goleadores) con una sola regla y no caso por caso.
+- **Anti-exploit:** los pronósticos ajenos quedan ocultos hasta que cierra cada partido y el orden de goleadores se valida en el servidor, para que no se pueda ajustar una apuesta con información que ya salió.
+- **Estado:** terminado. Corrió en producción en Render durante todo el Mundial, de junio a julio, con jugadores reales; al acabar el torneo se dio de baja el hosting.
 
-### Pre-validador de nómina — Craftmulti · 2026
+### Pre-validador de nómina · Craftmulti · 2026
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
@@ -126,19 +129,19 @@ Plataforma de predicciones deportivas usada por un grupo real de usuarios durant
 
 ## Proyectos de ingeniería industrial
 
-### Simulación de filas en confitería — Cine Colombia · 2025
+### Simulación de filas en confitería · Cine Colombia · 2025
 
 - **Problema:** las configuraciones de cajas y personal se decidían sin evidencia de su efecto real sobre la espera.
 - **Solución:** modelo de simulación del sistema de atención, con análisis de recorridos de clientes y patrones de llegada en hora pico.
 - **Resultado:** escenarios cuantificados de mejora de la eficiencia del servicio.
 
-### Mejora de tiempos en consulta externa — Clínica Universidad de La Sabana · 2024
+### Mejora de tiempos en consulta externa · Clínica Universidad de La Sabana · 2024
 
 - **Problema:** tiempos de espera altos sin trazabilidad de dónde se perdía el tiempo.
 - **Solución:** registro de tiempos de atención y clasificación de actividades críticas del proceso.
 - **Resultado:** cuellos de botella identificados y propuestas de optimización para reducir la espera.
 
-### Análisis de seguridad en refinado de aceite — Alianza Team · 2024
+### Análisis de seguridad en refinado de aceite · Alianza Team · 2024
 
 - **Alcance:** verificación de cumplimiento de normativas internacionales (ISO) y legislación de seguridad ocupacional, en contacto directo con la planta en México.
 - **Resultado:** riesgos de incendio y salud laboral identificados, con medidas preventivas alineadas a estándares de la industria.
@@ -156,7 +159,7 @@ Plataforma de predicciones deportivas usada por un grupo real de usuarios durant
 
 ## Contacto
 
-Abierto a hablar de analítica de datos, automatización de procesos, simulación e investigación de operaciones — y a escuchar propuestas de práctica.
+Abierto a hablar de analítica de datos, automatización de procesos, simulación e investigación de operaciones, y a escuchar propuestas de práctica.
 
 <div align="center">
 
